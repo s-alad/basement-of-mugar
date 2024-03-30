@@ -181,12 +181,12 @@ export default function Dao() {
     const members = [
         {
             name: "Wes",
-            description: "Co-founder of AL(eX)ANDRIA",
+            description: "Co-founder of BASEMUGAR",
             link: "@wezabis"
         },
         {
             name: "Saad",
-            description: "Co-founder of AL(eX)ANDRIA",
+            description: "Co-founder of BASEMUGAR",
             link: "@gi1lgamesh"
         }
     ]
