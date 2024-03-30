@@ -14,7 +14,7 @@ export default function Navbar() {
     return (
         <nav className={s.nav}>
             <div>
-                <Link href={"/"}>
+                <Link href={"https://sepolia.arbiscan.io/address/0x65aeC0B96491566e9055c57e882d45d86De24219"}>
                     <h1>BASEMUGAR</h1>
                 </Link>
             </div>
