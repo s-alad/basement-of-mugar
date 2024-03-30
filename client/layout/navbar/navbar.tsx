@@ -10,10 +10,8 @@ export default function Navbar() {
     function Navigation(): JSX.Element {
         if (router.pathname === "/") {
             return (
-                <>
+
                 <Link href={"/dao"}><button className={s.dao}>dao</button></Link>
-                {/* <Link href={"/howtouse"}><button className={s.dao}>how to use</button></Link> */}
-                </>
             )
         } 
         if (router.pathname === "/dao" || router.pathname === "/howtouse") {
