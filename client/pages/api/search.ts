@@ -18,7 +18,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         console.log("ping success!");
 
 
-        const collection = client.db("alexandria").collection("library");
+        const collection = client.db("basemugar").collection("library");
         const q = query.toString();
         const agg = [
             {
