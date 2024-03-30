@@ -10,7 +10,7 @@ interface Entry {
   medium: string;
   yearReleased: number;
   language: string;
-  cid: string;
+  CID: string;
 }
 
 
@@ -47,7 +47,7 @@ export default function Index() {
               medium: "no results",
               yearReleased: -1,
               language: "no results",
-              cid: "/"
+              CID: "/"
             }
           ]
         )
@@ -87,7 +87,7 @@ export default function Index() {
                     <p>{book.medium}</p>
                     <p>{book.yearReleased}</p>
                     <p>{book.language}</p>
-                    <a href={`https://ipfs.io/ipfs/${book.cid}`} target="_blank">https://ipfs.io/ipfs{book.cid}</a>
+                    <a href={`https://ipfs.io/ipfs/${book.CID}`} target="_blank">https://ipfs.io/ipfs{book.CID}</a>
                   </div>
                 )
               })
