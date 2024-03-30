@@ -87,6 +87,7 @@ export default function Index() {
                     <p>{book.medium}</p>
                     <p>{book.yearReleased}</p>
                     <p>{book.language}</p>
+                    <p>{book.CID}</p>
                     <a href={`https://ipfs.io/ipfs/${book.CID}`} target="_blank">https://ipfs.io/ipfs{book.CID}</a>
                   </div>
                 )
