@@ -246,7 +246,7 @@ export default function Dao() {
 
     return (
         <section className={s.dao}>
-            <h1 className={s.librarians}>AL(eX)AN.DAO</h1>
+            <h1 className={s.librarians}>MUGARDAO</h1>
 
             <Divider content="banking" />
             <div className={s.bank}>
