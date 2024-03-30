@@ -8,6 +8,20 @@ export default function Navbar() {
     const router = useRouter();
 
     function Navigation(): JSX.Element {
+        if (router.pathname === "/") {
+            return (
+                <>
+                <Link href={"/dao"}><button className={s.dao}>dao</button></Link>
+                {/* <Link href={"/howtouse"}><button className={s.dao}>how to use</button></Link> */}
+                </>
+            )
+        } 
+        if (router.pathname === "/dao" || router.pathname === "/howtouse") {
+            return (
+                <Link href={"/"}><button className={s.home}>library</button></Link>
+            )
+        }
+
         return <></>
     }
 
